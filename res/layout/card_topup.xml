@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_topup_header"
+        android:layout_gravity="center"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_topup_legend"
+        android:layout_gravity="center"/>
+    
+    <Spinner 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/card_type"
+        android:id="@+id/spn_card_type"
+        android:layout_gravity="center"/>
+    
+    <EditText 
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_card_code"
+        android:id="@+id/edit_card_code"
+        android:layout_gravity="center"/>
+    
+    <EditText 
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_card_serial"
+        android:id="@+id/edit_card_serial"
+        android:layout_gravity="center"/>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+        
+        <Button 
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/btn_cancel"
+	        android:text="@string/back"
+	        android:layout_gravity="center_horizontal"/>
+        
+        <Button 
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/btn_charge"
+	        android:text="@string/charge"
+	        android:layout_gravity="center_horizontal"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

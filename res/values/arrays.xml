@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  
+  <array name="card_type">
+        <item>Choose card type</item>
+        <item>Vinaphone</item>
+        <item>Mobifone</item>
+        <item>Viettel</item>
+  </array>
+  
+</resources>

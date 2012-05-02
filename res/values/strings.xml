@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Demo download manager</string>
+    <string name="app_name">Appota Payment Sample</string>
+	<string name="hint">Enter url here</string>
+	<string name="download">Download</string>
+	<string name="buy">Buy</string>
+	<string name="ticker">Starting download file...</string>
+	<string name="title_content">Downloading file </string>
+	<string name="url">http://appstore.vn/satthu1.2.apk</string>
+	<string name="pause">Pause</string>
+	<string name="topup_header">Top-up by</string>
+	<string name="carrier_card">Phone card</string>
+	<string name="internet_banking">Internet Banking</string>
+	<string name="sms">SMS</string>
+	<string name="paypal">Paypal</string>
+	<string name="card_topup_header">Top-up by phone card</string>
+	<string name="card_topup_legend">TYM = card value * 85%</string>
+	<string name="choose_card_type">Choose card type</string>
+	<string name="hint_card_code">Card code</string>
+	<string name="hint_card_serial">Card serial</string>
+	<string name="back">Back</string>
+	<string name="charge">Charge</string>
+	<string name="sms_topup_header">Top-up by SMS</string>
+	<string name="sms_topup_legend">TYM = SMS value * 50%</string>
+	<string name="send_sms">Send SMS</string>
+	<string name="banking_topup_header">Top-up by Internet Banking</string>
+	<string name="banking_topup_legend">TYM = Value - 1600 - (Value * 1%)</string>
+	<string name="paypal_topup_header">Top-up by Paypal</string>
+	<string name="paypal_topup_legend">TYM = Value - $0.3 - (Value * 3,4%)</string>
+	<string name="toast_card_charge_pending">Your charging has been sent. We will response right now.</string>
+	<string name="toast_card_charge_success">Your transaction was successfully</string>
+	<string name="toast_card_charge_failed">Your transaction failed</string>
+	<string name="hint_bank_value">Input value</string>
+	
+</resources>

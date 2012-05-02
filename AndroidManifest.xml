@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appota.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".AppotaPaymentSampleActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <service android:name=".CheckTopupService"></service>
+        
+        <activity
+            android:name=".PhoneCardPaymentActivity"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        
+        <activity
+            android:name=".SMSPaymentActivity"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        
+        <activity
+            android:name=".BankingPaymentActivity"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        
+        <activity
+            android:name=".PaypalPaymentActivity"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        
+        <activity
+            android:name=".PaypalActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        
+        <activity 
+            android:name=".BankingWebViewActivity" 
+            android:label="@string/app_name"
+     		android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity android:name="com.paypal.android.MEP.PayPalActivity"
+				  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+				  android:configChanges="keyboardHidden|orientation"/>
+        
+        <activity
+            android:name="com.appota.dialogactivity.LoginDialogActivity"
+            android:theme="@android:style/Theme.Dialog"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        
+    </application>
+
+</manifest>
