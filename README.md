@@ -15,7 +15,7 @@ Sử dụng
 -------
 Thay thế các thông tin cấu hình dành riêng cho ứng dụng của bạn trong file  src/com/appota/test/Constants.java
 
-Để sử dụng các [API][API] vui lòng truy cập địa chỉ: https://developers.appota.com/docs
+Để sử dụng các APIs vui lòng truy cập địa chỉ: https://developers.appota.com/docs
 
 
 Báo lỗi và đề xuất
